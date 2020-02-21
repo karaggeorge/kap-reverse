@@ -1,0 +1,31 @@
+{
+	"name": "kap-reverse",
+	"version": "1.0.0",
+	"description": "Reverse Kap recordings",
+	"license": "MIT",
+	"repository": "karaggeorge/kap-reverse",
+	"author": {
+		"name": "George Karagkiaouris",
+		"email": "gkaragkiaouris2@gmail.com",
+		"url": "https://gkaragkiaouris.tech"
+	},
+	"scripts": {
+		"test": "xo"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"kap-plugin",
+		"reverse",
+		"edit",
+		"video"
+	],
+	"kapVersion": ">=3.2.0",
+	"devDependencies": {
+		"xo": "^0.24.0"
+	},
+	"dependencies": {
+		"p-cancelable": "^2.0.0"
+	}
+}
