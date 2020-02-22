@@ -18,7 +18,7 @@ const action = PCancelable.fn(async ({convert, exportOptions, inputPath, outputP
 		process.cancel();
 	});
 
-	return process;
+	await process;
 });
 
 const reverse = {
