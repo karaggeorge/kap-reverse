@@ -1,7 +1,7 @@
 {
 	"name": "kap-reverse",
 	"version": "1.0.1",
-	"description": "Reverse Kap recordings",
+	"description": "Reverse recordings",
 	"license": "MIT",
 	"repository": "karaggeorge/kap-reverse",
 	"author": {
