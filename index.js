@@ -5,7 +5,8 @@ const action = PCancelable.fn(async ({convert, exportOptions, inputPath, outputP
 	const process = convert([
 		'-i',
 		inputPath,
-		'-vf', 'reverse',
+		'-vf',
+		'reverse',
 		...(
 			exportOptions.isMuted ? [] : [
 				'-af', 'reverse'
